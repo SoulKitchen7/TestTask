@@ -1,13 +1,13 @@
-Задание 1
-Дано дерево, состоящее из экземпляров класса TreeNode:
-import java.util.List;
-import lombok.Data;
+Задание 1<br>
+Дано дерево, состоящее из экземпляров класса TreeNode:<br>
+import java.util.List;<br>
+import lombok.Data;<br>
 
-@Data
-public class TreeNode {
-	private int value;
-	private List<TreeNode> children;
-}
+@Data<br>
+public class TreeNode {<br>
+	private int value;<br>
+	private List<TreeNode> children;<br>
+}<br>
 
 Требуется написать класс, метод которого получит на вход корень такого дерева, найдёт в этом дереве узлы, у которых value больше N (N задаётся параметром), и вернёт список этих узлов.<br>
 Задание 2
